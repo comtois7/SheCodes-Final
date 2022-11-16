@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link href="src/styles.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand&family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+        crossorigin="anonymous"
+      />
+      <link href="src/styles.css" rel="stylesheet" type="text/css" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Quicksand&family=Rubik&display=swap"
+        rel="stylesheet"
+      />
+      <link rel="stylesheet" href="src/style.css" />
+      <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    </head>
+    <body>
+      <div class="container">
+        <h1>Current Weather</h1>
+        <div class="row">
+          <div class="col">
+            <h2 class="city" id="city-weather">New York</h2>
+          </div>
+          <div class="col"><h2 class="temp" id="current-temp">°C</h2></div>
+        </div>
+        <h3 id="calendars">Date</h3>
+        <hr />
+        <h3>This Week</h3>
+        <ul>
+          <div class="row">
+            <div class="col-8"><li class="monday">Monday</li></div>
+            <div class="col-1"><li class="monday-temp">18°C</li></div>
+          </div>
+          <div class="row">
+            <div class="col-8"><li class="tuesday">Tuesday</li></div>
+            <div class="col-1"><li class="tuesday-temp">10°C</li></div>
+          </div>
+          <div class="row">
+            <div class="col-8"><li class="wednesday">Wednesday</li></div>
+            <div class="col-1"><li class="wednesday-temp">15°C</li></div>
+          </div>
+          <div class="row">
+            <div class="col-8"><li class="thursday">Thursday</li></div>
+            <div class="col-1"><li class="thursday-temp">17°C</li></div>
+          </div>
+          <div class="row">
+            <div class="col-8"><li class="friday">Friday</li></div>
+            <div class="col-1"><li class="friday-temp">21°C</li></div>
+          </div>
+        </ul>
+        <div class="new-city">
+          <form id="search-form">
+            <input type="text" placeholder="Change City" id="submit-city" />
+            <input type="submit" value="Search" />
+          </form>
+        </div>
+      </div>
+      <script src="src/script.js"></script>
+      <a href="https://github.com/comtois7/SheCodesPlusFinalProject"
+        >GitHub Link</a
+      >
+    </body>
+  </head>
+</html>

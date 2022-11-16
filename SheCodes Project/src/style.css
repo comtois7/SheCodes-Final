@@ -1,0 +1,38 @@
+h1 {
+  text-align: center;
+  color: #1e1e45;
+  border: solid;
+  border-radius: 10px;
+  background: #337d53;
+  font-family: "Rubik", sans-serif;
+}
+.city {
+  text-align: center;
+  color: #1e1e45;
+  font-family: "Quicksand", sans-serif;
+  font-size: 36px;
+}
+.temp {
+  text-align: center;
+  color: #1e1e45;
+  font-family: "Quicksand", sans-serif;
+  font-size: 36px;
+}
+h3 {
+  text-align: center;
+  color: #337d53;
+  font-family: "Rubik", sans-serif;
+}
+ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  color: #337d53;
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+}
+.new-city {
+  text-align: center;
+  padding: 50px;
+}
